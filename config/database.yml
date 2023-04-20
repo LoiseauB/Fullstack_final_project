@@ -82,4 +82,4 @@ production:
   <<: *default
   database: placetoplay_production
   username: placetoplay
-  password: <%= ENV['PLACETOPLAY_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_URL'] %>
