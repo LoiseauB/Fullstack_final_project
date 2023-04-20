@@ -1,12 +1,17 @@
 databases:
   - name: placetoplayapp
+    region: frankfurt
+    plan: free
     databaseName: placetoplayapp
     user: placetoplayapp
+    
 
 services:
   - type: web
     name: placetoplayapp
     env: ruby
+    region: frankfurt
+    plan: free
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
