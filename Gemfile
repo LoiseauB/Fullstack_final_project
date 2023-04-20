@@ -73,5 +73,5 @@ gem 'table_print'
 gem 'rubocop'
 gem 'rspotify'
 gem 'rails-i18n'
-# gem "dockerfile-rails", ">= 1.2", :group => :development
+gem "dockerfile-rails", ">= 1.2", :group => :development
 gem 'faker'
